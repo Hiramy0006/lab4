@@ -1,0 +1,24 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Стіни будинку (змінено колір) -->
+    <rect x="75" y="150" width="150" height="120" fill="#ffd700" />
+
+    <!-- Дах будинку (змінено колір) -->
+    <polygon points="70,150 220,150 145,90" fill="#8b0000" />
+
+    <!-- Двері (змінено колір) -->
+    <rect x="130" y="210" width="40" height="60" fill="#8b4513" />
+
+    <!-- Вікно 1 (змінено колір) -->
+    <rect x="85" y="170" width="50" height="50" fill="#4169e1" />
+    <line x1="110" y1="170" x2="110" y2="220" stroke="black" stroke-width="2" />
+    <line x1="85" y1="195" x2="135" y2="195" stroke="black" stroke-width="2" />
+
+    <!-- Вікно 2 (змінено колір) -->
+    <rect x="165" y="170" width="50" height="50" fill="#4169e1" />
+    <line x1="190" y1="170" x2="190" y2="220" stroke="black" stroke-width="2" />
+    <line x1="165" y1="195" x2="215" y2="195" stroke="black" stroke-width="2" />
+</svg>
+
+
+
+

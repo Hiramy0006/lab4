@@ -1,0 +1,48 @@
+body {
+    background-color: #e7a619;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.jpgfoto, .pngfoto, .svgfoto {
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s; /* Додана анімація трансформації */
+    cursor: pointer;
+}
+
+.jpgfoto:hover, .pngfoto:hover, .svgfoto:hover {
+    transform: scale(1.1); /* Збільшує зображення при наведенні */
+}
+
+.jpgfoto {
+    width: 300px;
+}
+
+.pngfoto {
+    width: 350px;
+}
+
+.svgfoto {
+    width: 400px;
+}
+
+#myCanvas {
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Стилі для квадрата */
+canvas {
+    background-color: transparent;
+}
+
+
+

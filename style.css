@@ -1,0 +1,12 @@
+#myCanvas {
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Стилі для квадрата */
+canvas {
+    background-color: transparent;
+}
+
